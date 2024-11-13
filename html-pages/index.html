@@ -1,0 +1,49 @@
+import React from 'react';
+import styles from './ModeEclatPage.module.css';
+import Header from './Header';
+import CategorySection from './CategorySection';
+import Footer from './Footer';
+
+const Header = () => {
+    return (
+      <header className={styles.header}>
+        <nav>
+          <ul className={styles.navList}>
+            <li><a href="#women">Women</a></li>
+            <li><a href="#men">Men</a></li>
+            <li><a href="#accessories">Accessories</a></li>
+          </ul>
+        </nav>
+      </header>
+    );
+  };
+  
+
+const ModeEclatPage = () => {
+  const categories = [
+    { title: 'SAPATOS FEMININOS', className: styles.categoryFemaleShoes },
+    { title: 'SAPATOS MASCULINOS', className: styles.categoryMaleShoes },
+    { title: 'ROUPAS FEMININAS', className: styles.categoryFemaleClothes },
+    { title: 'ROUPAS MASCULINAS', className: styles.categoryMaleClothes },
+  ];
+
+  return (
+    <main className={styles.mainContent}>
+      <Header />
+      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/a99017dcb075a9db9e993d5786beeb90e597c8528462c88e4aa903d1fe8d1820?placeholderIfAbsent=true&apiKey=0c9f602e70454795bc5c3060fa79b030" alt="" className={styles.bannerImage} />
+      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/c54bc128b1c9ae38c7ddf5d55658b002dce054401156b158ac0709a1182ddca1?placeholderIfAbsent=true&apiKey=0c9f602e70454795bc5c3060fa79b030" alt="" className={styles.secondaryImage} />
+      <section className={styles.categoriesSection}>
+        <CategorySection title="MULHER" backgroundImage="https://cdn.builder.io/api/v1/image/assets/TEMP/e542b95d9f38833c8eb5070b9fd091dfbb30470ce48ec649bdee73073032725e?placeholderIfAbsent=true&apiKey=0c9f602e70454795bc5c3060fa79b030" />
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/e0468cb0d32c044713e48040aa31ee463a9b196b9f1fa0140b7e20a12d534c20?placeholderIfAbsent=true&apiKey=0c9f602e70454795bc5c3060fa79b030" alt="" className={styles.dividerImage} />
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/5f865d4fb54e00702f256b66e534beb0703e476847d432c76dbf4d83e776edd9?placeholderIfAbsent=true&apiKey=0c9f602e70454795bc5c3060fa79b030" alt="" className={styles.dividerImage} />
+        <CategorySection title="ACESSÓRIOS MASCULINOS" backgroundImage="https://cdn.builder.io/api/v1/image/assets/TEMP/845b8f136ff61ceec3510978610408b3f6d3bb1e29c640b15b1bedf167d8dbcd?placeholderIfAbsent=true&apiKey=0c9f602e70454795bc5c3060fa79b030" />
+        {categories.map((category, index) => (
+          <h2 key={index} className={category.className}>{category.title}</h2>
+        ))}
+      </section>
+      <Footer />
+    </main>
+  );
+};
+
+export default ModeEclatPage;
