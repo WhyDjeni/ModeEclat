@@ -1,4 +1,4 @@
-.mainContainer {
+.mainContainer{
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -7,26 +7,26 @@
   padding-bottom: 6px;
 }
 
-.header {
+.header{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.bannerImage {
+.bannerImage{
   aspect-ratio: 13.51;
   object-fit: contain;
   width: 100%;
 }
 
-.featuredImage {
+.featuredImage{
   aspect-ratio: 1.88;
   object-fit: contain;
   width: 100%;
   margin-top: 45px;
 }
 
-.categoriesSection {
+.categoriesSection{
   align-self: center;
   display: flex;
   flex-direction: column;
@@ -38,7 +38,7 @@
   font: 24px Otomanopee One, -apple-system, Roboto, Helvetica, sans-serif;
 }
 
-.categorySection {
+.categorySection{
   display: flex;
   flex-direction: column;
   position: relative;
@@ -50,14 +50,14 @@
   overflow: hidden;
 }
 
-.categoryTitle {
+.categoryTitle{
   position: relative;
   z-index: 10;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   transform: rotate(-6.551300657520178E8rad);
 }
 
-.categoryBackground {
+.categoryBackground{
   position: absolute;
   inset: 0;
   height: 100%;
@@ -65,27 +65,27 @@
   object-fit: cover;
 }
 
-.categoryFemaleShoes {
+.categoryFemaleShoes{
   margin-left: 150px;
 }
 
-.categoryMaleShoes {
+.categoryMaleShoes{
   margin-left: 165px;
 }
 
-.categoryFemaleClothes {
+.categoryFemaleClothes{
   margin-left: 150px;
 }
 
-.categoryMaleClothes {
+.categoryMaleClothes{
   margin-left: 165px;
 }
 
-.categoryMaleAccessories {
+.categoryMaleAccessories{
   margin-left: 70px;
 }
 
-.footer {
+.footer{
   background-color: #d9d9d9;
   color: #000;
   font: 25px Outfit, sans-serif;
@@ -95,16 +95,16 @@
 }
 
 .footerNav h2,
-.footerNav ul {
+.footerNav ul{
   margin: 0;
   padding: 0;
 }
 
-.footerNav ul {
+.footerNav ul{
   list-style-type: none;
 }
 
-.footerContent {
+.footerContent{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -112,15 +112,15 @@
   max-width: 1140px;
 }
 
-.footerDisclaimer {
+.footerDisclaimer{
   text-align: center;
 }
 
-.paymentMethods h3 {
+.paymentMethods h3{
   margin-left: 12px;
 }
 
-.paymentImage {
+.paymentImage{
   aspect-ratio: 5.13;
   object-fit: contain;
   width: 313px;
