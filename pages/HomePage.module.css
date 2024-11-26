@@ -1,0 +1,174 @@
+.mainContainer{
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  overflow: hidden;
+  padding-bottom: 6px;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bannerImage{
+  aspect-ratio: 13.51;
+  object-fit: contain;
+  width: 100%;
+}
+
+.featuredImage{
+  aspect-ratio: 1.88;
+  object-fit: contain;
+  width: 100%;
+  margin-top: 45px;
+}
+
+.categoriesSection{
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1494px;
+  color: #fffafa;
+  text-align: center;
+  margin: 121px 0 0 17px;
+  font: 24px Otomanopee One, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.categorySection{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 242px;
+  width: 100%;
+  padding: 45px 46px 109px;
+  margin-top: 17px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.categoryTitle{
+  position: relative;
+  z-index: 10;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-6.551300657520178E8rad);
+}
+
+.categoryBackground{
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.categoryFemaleShoes{
+  margin-left: 150px;
+}
+
+.categoryMaleShoes{
+  margin-left: 165px;
+}
+
+.categoryFemaleClothes{
+  margin-left: 150px;
+}
+
+.categoryMaleClothes{
+  margin-left: 165px;
+}
+
+.categoryMaleAccessories{
+  margin-left: 70px;
+}
+
+.footer{
+  background-color: #d9d9d9;
+  color: #000;
+  font: 25px Outfit, sans-serif;
+  margin-top: 174px;
+  padding: 38px 0 38px 80px;
+  width: 100%;
+}
+
+.footerNav h2,
+.footerNav ul{
+  margin: 0;
+  padding: 0;
+}
+
+.footerNav ul{
+  list-style-type: none;
+}
+
+.footerContent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 112px;
+  max-width: 1140px;
+}
+
+.footerDisclaimer{
+  text-align: center;
+}
+
+.paymentMethods h3{
+  margin-left: 12px;
+}
+
+.paymentImage{
+  aspect-ratio: 5.13;
+  object-fit: contain;
+  width: 313px;
+  margin-top: 18px;
+}
+
+@media (max-width: 991px) {
+  .bannerImage,
+  .featuredImage,
+  .categoriesSection,
+  .categorySection,
+  .footer,
+  .footerContent {
+    max-width: 100%;
+  }
+
+  .featuredImage {
+    margin-top: 40px;
+  }
+
+  .categoriesSection {
+    margin-top: 40px;
+  }
+
+  .categorySection {
+    padding: 0 20px 110px;
+  }
+
+  .categoryFemaleShoes,
+  .categoryMaleShoes,
+  .categoryFemaleClothes,
+  .categoryMaleClothes,
+  .categoryMaleAccessories {
+    margin-left: 10px;
+  }
+
+  .footer {
+    padding-left: 20px;
+    margin-top: 40px;
+  }
+
+  .footerContent {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 40px;
+  }
+
+  .paymentMethods {
+    margin-top: 20px;
+  }
+}
