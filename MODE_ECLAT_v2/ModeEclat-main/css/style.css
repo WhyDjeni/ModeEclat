@@ -1,0 +1,100 @@
+/* Cabeçalho fixo global */
+header {
+    display: flex;
+    justify-content: center; /* Centraliza a logo */
+    align-items: center;
+    background: white; /* Fundo branco */
+    color: #000;
+    padding: 20px 10px; /* Altere aqui para ajustar a altura do cabeçalho */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 80px; /* Definindo uma altura fixa para o cabeçalho */
+}
+
+/* Logo no centro */
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 5px;
+    transform: translateX(-50%);
+}
+
+/* Ícones do cabeçalho à direita */
+.header-icons {
+    position: absolute;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-icons img {
+    width: 35px;
+    height: auto;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garantir que margens e preenchimentos sejam calculados corretamente */
+}
+
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garantir que o corpo ocupe toda a altura da tela */
+    padding-top: 100px; /* Espaço para o cabeçalho fixo */
+}
+
+
+/* Rodapé global */
+footer {
+    text-align: center;
+    background: #000; /* Fundo preto */
+    color: #fff;
+    padding: 20px;
+    margin-top: auto; /* Faz com que o rodapé vá para o fundo */
+    width: 100%;
+}
+
+/* Estilo para o menu de navegação no rodapé */
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Alinha os itens horizontalmente */
+    gap: 20px; /* Espaçamento entre os itens */
+}
+
+footer nav ul li {
+    display: inline;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+
