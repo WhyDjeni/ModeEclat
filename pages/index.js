@@ -8,7 +8,7 @@ import Footer from './FooterHome.js';
 const HomePage = () => {
   const categories = [
     { name: 'WOMANS', className: styles.categoryFemale },
-    { name: 'MANS', className: styles.categoryMale, Link:'./ManPage.js', type: button },
+    { name: 'MANS', className: styles.categoryMale, Link:'./ManPage.js' },
     { name: 'ROUPAS FEMININAS', className: styles.categoryFemaleClothes },
     { name: 'ROUPAS MASCULINAS', className: styles.categoryMaleClothes },
     { name: 'ACESSÓRIOS MASCULINOS', className: styles.categoryMaleAccessories },
@@ -19,7 +19,15 @@ const HomePage = () => {
       <Header />
       <section className={styles.categoriesSection} aria-label="Categorias de produtos">
         {categories.map((category, index) => (
-          <CategorySection key={index} name={category.name} className={category.className} />
+          <div key={index} className={category.className}>
+            {category.Link ? (
+              <Link href={category.link}>
+                <a className={styles.button}>{category.name}</a>
+              </Link>
+            ) : (
+              <CategorySection name={category.name} className={category.className}/>
+            )}
+          </div>
         ))}
       </section>
       <Footer />

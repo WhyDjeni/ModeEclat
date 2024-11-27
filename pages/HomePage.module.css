@@ -172,3 +172,16 @@
     margin-top: 20px;
   }
 }
+.button {
+  padding: 10px 20px;
+  background-color: #0070f3;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+.button:hover {
+  background-color: #005bb5;
+}
