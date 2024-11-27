@@ -1,0 +1,121 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 100px;
+    flex-grow: 1;
+}
+
+/* Estilo do cabeçalho */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: #000;
+    padding: 20px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 80px;
+}
+
+/* Logo no centro */
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Estilo do link do logo no cabeçalho */
+.logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Ícones do cabeçalho à direita */
+.header-icons {
+    position: absolute;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-icons img {
+    width: 35px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Rodapé global */
+footer {
+    text-align: center;
+    background: #000;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: auto;
+}
+
+/* Navegação no rodapé */
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer nav ul li {
+    display: inline;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s ease;
+}
+
+footer nav ul li a:hover {
+    color: #ddd;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+/* Ajustar a altura do conteúdo para o rodapé */
+main {
+    flex-grow: 1;
+}
