@@ -8,7 +8,7 @@ import Footer from './FooterHome.js';
 const HomePage = () => {
   const categories = [
     { name: 'WOMANS', className: styles.categoryFemale },
-    { name: 'MANS', className: styles.categoryMale, Link:'./ManPage.js' },
+    { name: 'MANS', className: styles.categoryMale, Link:'./ManPage.js', type: button },
     { name: 'ROUPAS FEMININAS', className: styles.categoryFemaleClothes },
     { name: 'ROUPAS MASCULINAS', className: styles.categoryMaleClothes },
     { name: 'ACESSÓRIOS MASCULINOS', className: styles.categoryMaleAccessories },

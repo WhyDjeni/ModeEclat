@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './HeaderMan';
 import ProductSection from './ProductSectionMan';
-import Footer from './FooterMan';
+import Footer from './components/FooterMan';
 import styles from './ManPage.module.css';
 
 const ManPage = () => {
