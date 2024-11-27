@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './pages/HomePage.module.css';
+import styles from './HomePage.module.css';
 import Header from './HeaderHome.js';
-import CategorySection from '.pages/CategorySectionHome.js';
-import Footer from './pages/FooterHome.js';
+import CategorySection from './CategorySectionHome.js';
+import Footer from './FooterHome.js';
 
 const HomePage = () => {
   const categories = [
