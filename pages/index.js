@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link.js';
 import styles from './HomePage.module.css';
 import Header from './HeaderHome.js';
 import CategorySection from './CategorySectionHome.js';
@@ -6,8 +7,8 @@ import Footer from './FooterHome.js';
 
 const HomePage = () => {
   const categories = [
-    { name: 'SAPATOS FEMININOS', className: styles.categoryFemaleShoes },
-    { name: 'SAPATOS MASCULINOS', className: styles.categoryMaleShoes },
+    { name: 'WOMANS', className: styles.categoryFemale },
+    { name: 'MANS', className: styles.categoryMale, Link:'./ManPage.js' },
     { name: 'ROUPAS FEMININAS', className: styles.categoryFemaleClothes },
     { name: 'ROUPAS MASCULINAS', className: styles.categoryMaleClothes },
     { name: 'ACESSÓRIOS MASCULINOS', className: styles.categoryMaleAccessories },

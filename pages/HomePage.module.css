@@ -64,11 +64,12 @@
   object-fit: cover;
 }
 
-.categoryFemaleShoes{
+.categoryFemale{
   margin-left: 150px;
+
 }
 
-.categoryMaleShoes{
+.categoryMale{
   margin-left: 165px;
 }
 
