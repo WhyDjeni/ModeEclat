@@ -1,9 +1,9 @@
 import React from 'react';
 import Link from 'next/link.js';
-import styles from './HomePage.module.css';
-import Header from './HeaderHome.js';
-import CategorySection from './CategorySectionHome.js';
-import Footer from './FooterHome.js';
+import styles from './styles/HomePage.module.css';
+import Header from './components/HeaderHome.js';
+import CategorySection from './components/CategorySectionHome.js';
+import Footer from './components/FooterHome.js';
 
 const HomePage = () => {
   const categories = [
