@@ -1,8 +1,8 @@
 import React from 'react';
 import Header from './HeaderMan';
-import ProductSection from './ProductSectionMan';
+import ProductSection from '../components/ProductSectionMan';
 import Footer from './components/FooterMan';
-import styles from './ManPage.module.css';
+import styles from './styles/ManPage.module.css';
 
 const ManPage = () => {
   const clothesProducts = [
