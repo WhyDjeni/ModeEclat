@@ -1,3 +1,10 @@
+
+.body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #dbdbdbc7;
+  color: #030303;
+}
 .navbar {
   position: fixed;
   top: 0;
