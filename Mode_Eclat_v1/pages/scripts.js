@@ -24,15 +24,15 @@ document.querySelector('.view-more-button').addEventListener('click', function()
 });
 
 document.getElementById("camisa1").addEventListener("click", function() {
-  window.location.href = "camisa1.html"; 
+  window.location.href = "./roupas_homem/camisa1.html"; 
 })
 document.getElementById("camisa2").addEventListener("click", function() {
-  window.location.href = "camisa2.html"; 
+  window.location.href = "./roupas_homem/camisa2.html"; 
 });
 
 document.getElementById("camisa3").addEventListener("click", function() {
-  window.location.href = "camisa3.html"; 
+  window.location.href = "./roupas_homem/camisa3.html"; 
 });
 document.getElementById("camisa4").addEventListener("click", function() {
-  window.location.href = "camisa4.html"; 
+  window.location.href = "./roupas_homem/camisa4.html"; 
 });

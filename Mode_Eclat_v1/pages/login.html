@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ModeEclat - Login</title>
+    <link rel="stylesheet" href="styles/login.css">
+    <script src="login.js" defer></script>
+</head>
+<body>
+    <div class="login-container">
+        <div class="header-logo">ModeEclat</div>
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/c4aff9a91a7193cb1996345de3633efc15269bbec7d9a41716c763ad5ab168e8?placeholderIfAbsent=true&apiKey=0c9f602e70454795bc5c3060fa79b030" class="divider-line" alt="" />
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/bcee74266e8b0fae367574fdb7841be50ef4ced9e9626e2996a6bb88c3712f8a?placeholderIfAbsent=true&apiKey=0c9f602e70454795bc5c3060fa79b030" class="divider-line" alt="" />
+        <div class="main-logo">ModeEclat</div>
+
+        <form class="login-form" id="loginForm">
+            <label for="email" class="form-label">E-mail</label>
+            <input type="email" id="email" class="form-input" required aria-label="Email input" />
+
+            <label for="password" class="form-label">Senha</label>
+            <input type="password" id="password" class="form-input" required aria-label="Password input" />
+
+            <button type="submit" class="submit-button">Entrar</button>
+        </form>
+
+        <a href="#register" class="register-link">
+            Não possui uma conta? <strong>Registrar-se</strong>
+        </a>
+
+        <div class="social-login-container">
+            <button class="social-button" type="button" aria-label="Continue com Google">
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/02fc44f3cf41ab244d1156f71e4d244ce11b35fa5765f3e73eaa4803ef51b2d7?placeholderIfAbsent=true&apiKey=0c9f602e70454795bc5c3060fa79b030" class="social-icon" alt="Google logo" />
+                <span>Continue com Google</span>
+            </button>
+            <button class="social-button" type="button" aria-label="Continue com Apple">
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/27032ce6bf3823387258e26d9d8ea437ad2235b8a2d765fcdb59e3062a33f2b4?placeholderIfAbsent=true&apiKey=0c9f602e70454795bc5c3060fa79b030" class="social-icon" alt="Apple logo" />
+                <span>Continue com Apple</span>
+            </button>
+            <button class="social-button" type="button" aria-label="Continue com Facebook">
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/369ba5d3a48674737068fe24dda8f53f34ac4cf5dfc050c46c54dae12771f335?placeholderIfAbsent=true&apiKey=0c9f602e70454795bc5c3060fa79b030" class="social-icon" alt="Facebook logo" />
+                <span>Continue com Facebook</span>
+            </button>
+        </div>
+
+        <button class="back-button" type="button">Voltar</button>
+
+        <footer class="footer">
+            <div>
+                Sobre a ModeEclat
+                <br />
+                Sobre nós
+            </div>
+            <div class="footer-content">
+                <div class="footer-text">Site feito com intuito estudantil</div>
+                <div class="payment-section">
+                    <div class="payment-title">Formas de pagamento</div>
+                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/04d9cc02ed5d76ddeb1f0a3f2dcd925154923d4c45420f10930ece886d8e9c45?placeholderIfAbsent=true&apiKey=0c9f602e70454795bc5c3060fa79b030" class="payment-methods" alt="Accepted payment methods" />
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
