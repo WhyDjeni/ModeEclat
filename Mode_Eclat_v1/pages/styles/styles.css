@@ -204,6 +204,8 @@
   background-color: #005bb5;
 }
 .footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
 }
 .privacy {
