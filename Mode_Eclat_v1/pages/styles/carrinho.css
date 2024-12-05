@@ -2,9 +2,6 @@
 .body {
   margin: 0;
   font-family: Arial, sans-serif;
-  text-size-adjust: 1.3em;
-  font-size: 1.3em;
-  line-height: 1.4;
   background-color: #dbdbdbc7;
   color: #030303;
   display: flex;
@@ -134,7 +131,7 @@
   }
   
   .product-title {
-    font: 600 55px Outfit, sans-serif;
+    font: 600 40px Outfit, sans-serif;
     width: 100%;
   }
   
@@ -146,7 +143,7 @@
   }
   
   .price-details {
-    font: 32px Inter, sans-serif;
+    font: 30px Inter, sans-serif;
   }
   
   .stock-status {
@@ -164,7 +161,7 @@
     width: 340px;
     flex-direction: column;
     margin: 74px 0 0 17px;
-    font: 25px Outfit, sans-serif;
+    font: 20px Outfit, sans-serif;
   }
   
   .payment-methods {
@@ -175,10 +172,10 @@
   }
   
   .product-description {
-    margin-left: 63px;
-    width: 792px;
+    margin-top: 40px;
+    font-size: 1.1em;
     color: #000;
-    font: 400 32px Outfit, sans-serif;
+    font: 300 25px Outfit, sans-serif;
   }
   
   .footer {
@@ -186,12 +183,15 @@
     display: flex;
     margin-top: 144px;
     width: 100%;
-    align-items: start;
+    align-items: center;
     gap: 40px 100px;
     color: #000;
     flex-wrap: wrap;
-    padding: 307px 0 0 80px;
+    padding: 50px 0px 30px 0px;
     font: 400 25px Outfit, sans-serif;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
   }
   
   .footer-text {
@@ -243,11 +243,5 @@
   
     .payment-info {
       margin: 40px 0 0 10px;
-    }
-  
-    .footer {
-      max-width: 100%;
-      margin-top: 40px;
-      padding: 100px 0 0 20px;
     }
   }
