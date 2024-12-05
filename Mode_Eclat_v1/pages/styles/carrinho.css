@@ -98,7 +98,7 @@
   .product-details {
     align-self: center;
     display: flex;
-    width: 80%;
+    width: 60%;
     max-width: 1722px;
     flex-direction: column;
     margin: 256px 0 0 19px;
