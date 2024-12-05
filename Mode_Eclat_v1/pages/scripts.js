@@ -47,5 +47,17 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById("calca4").addEventListener("click", function() {
     window.location.href = "./roupas_homem/calca4.html"; 
   });
+  document.getElementById("calca5").addEventListener("click", function() {
+    window.location.href = "./roupas_homem/calca5.html"; 
+  });
+  document.getElementById("calca6").addEventListener("click", function() {
+    window.location.href = "./roupas_homem/calca6.html"; 
+  });
+  document.getElementById("calca7").addEventListener("click", function() {
+    window.location.href = "./roupas_homem/calca7.html"; 
+  });
+  document.getElementById("calca8").addEventListener("click", function() {
+    window.location.href = "./roupas_homem/calca8.html"; 
+  });
 
 });
