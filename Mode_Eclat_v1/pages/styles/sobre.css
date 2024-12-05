@@ -1,0 +1,15 @@
+
+#sobre {
+    padding: 40px 20px;
+    margin-top: 40px;
+}
+
+#sobre h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#sobre p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
