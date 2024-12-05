@@ -96,10 +96,9 @@
   }
   section {
     display: flex;
-    justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
   }
 
 .product-image-wrapper {
@@ -138,7 +137,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   width: 100%;
   padding: 10px 0px 10px 0px;
   text-align: center;
