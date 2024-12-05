@@ -1,31 +1,17 @@
 document.addEventListener('DOMContentLoaded', function() {
-    
-    document.getElementById("blusa1").addEventListener("click", function() {
-        window.location.href = "./roupas_mulher/blusa1.html"; 
+  function addRedirectListener(elementId, destination) {
+      document.getElementById(elementId).addEventListener("click", function() {
+          window.location.href = destination; 
       });
-      document.getElementById("blusa2").addEventListener("click", function() {
-        window.location.href = "./roupas_mulher/blusa2.html"; 
-      });
-      document.getElementById("blusa3").addEventListener("click", function() {
-        window.location.href = "./roupas_mulher/blusa3.html"; 
-      });
-      document.getElementById("blusa4").addEventListener("click", function() {
-        window.location.href = "./roupas_mulher/blusa4.html"; 
-      });
-     
-      document.getElementById("camisa1").addEventListener("click", function() {
-        window.location.href = "./roupas_homem/camisa1.html"; 
-      })
-      document.getElementById("camisa2").addEventListener("click", function() {
-        window.location.href = "./roupas_homem/camisa2.html"; 
-      });
-    
-      document.getElementById("camisa3").addEventListener("click", function() {
-        window.location.href = "./roupas_homem/camisa3.html"; 
-      });
-      document.getElementById("camisa4").addEventListener("click", function() {
-        window.location.href = "./roupas_homem/camisa4.html"; 
-      });
-    
-   
+  }
+
+  addRedirectListener("blusa1", "./roupas_mulher/blusa1.html");
+  addRedirectListener("blusa2", "./roupas_mulher/blusa2.html");
+  addRedirectListener("blusa3", "./roupas_mulher/blusa3.html");
+  addRedirectListener("blusa4", "./roupas_mulher/blusa4.html");
+
+  addRedirectListener("camisa1", "./roupas_homem/camisa1.html");
+  addRedirectListener("camisa2", "./roupas_homem/camisa2.html");
+  addRedirectListener("camisa3", "./roupas_homem/camisa3.html");
+  addRedirectListener("camisa4", "./roupas_homem/camisa4.html");
 });
