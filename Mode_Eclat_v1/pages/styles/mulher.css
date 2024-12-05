@@ -162,7 +162,8 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: justify;
     text-align: center;
-    display: inline-block;
+    display: block;
+    position: relative;
   }
   .product-card:hover{
     background-color: #888686;
@@ -178,35 +179,13 @@
     height: auto;
     border-radius: 8px;
   }
-  .link1 {
-    max-height: fit-content;
-    max-width: fit-content;
-    cursor: pointer;
-    range: calc();
-  }
+
   .product-brand, .product-name, .product-price {
     margin: 10px 0;
   }
   
-  .view-more-button {
-    background-color: #0066cc;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 20px;
-  }
-  
-  .view-more-button:hover {
-    background-color: #005bb5;
-  }
   .footer {
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
   }
-  .privacy {
-    text-align: center;
-  }
-  
