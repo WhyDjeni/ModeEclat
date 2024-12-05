@@ -36,4 +36,16 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById("camisa8").addEventListener("click", function() {
     window.location.href = "./roupas_homem/camisa8.html"; 
   });
+  document.getElementById("calca1").addEventListener("click", function() {
+    window.location.href = "./roupas_homem/calca1.html"; 
+  });
+  document.getElementById("calca2").addEventListener("click", function() {
+    window.location.href = "./roupas_homem/calca2.html"; 
+  });
+  document.getElementById("calca3").addEventListener("click", function() {
+    window.location.href = "./roupas_homem/calca3.html"; 
+  });
+  document.getElementById("calca4").addEventListener("click", function() {
+    window.location.href = "./roupas_homem/calca4.html"; 
+  });
 });
