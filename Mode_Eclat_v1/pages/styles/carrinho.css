@@ -2,6 +2,8 @@
 .body {
   margin: 0;
   font-family: Arial, sans-serif;
+  font-size: 1.3em;
+  line-height: 1.4;
   background-color: #dbdbdbc7;
   color: #030303;
   display: flex;
