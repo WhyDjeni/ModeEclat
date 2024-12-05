@@ -4,7 +4,13 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('vermaishomem').addEventListener('click', function() {
     window.location.href = "./homem.html";
   });
+  document.getElementById('vermaishomem1').addEventListener('click', function() {
+    window.location.href = "./homem.html";
+  });
   document.getElementById('vermaismulher').addEventListener('click', function() {
+    window.location.href = "./mulher.html";
+  });
+  document.getElementById('vermaismulher1').addEventListener('click', function() {
     window.location.href = "./mulher.html";
   });
 
