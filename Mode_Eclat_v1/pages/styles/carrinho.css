@@ -4,6 +4,7 @@
   font-family: Arial, sans-serif;
   background-color: #dbdbdbc7;
   color: #030303;
+  display: flex;
 }
 .navbar {
   position: fixed;
@@ -89,24 +90,21 @@
     width: 105px;
   }
   
-  .divider {
-    width: 80%;
-    height: 1px;
-    background: #000;
-  }
-  
+
   .product-details {
     align-self: center;
     display: flex;
     width: 60%;
     max-width: 1722px;
     flex-direction: column;
-    margin: 256px 0 0 19px;
+    margin: 1% 0 10% 20% ;
   }
   
   .product-layout {
+    align-content: center;
     gap: 20px;
     display: flex;
+    padding: 20% 0 20% 0;
   }
   
   .product-image-column {
