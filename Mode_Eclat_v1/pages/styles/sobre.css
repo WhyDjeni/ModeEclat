@@ -77,19 +77,24 @@
     color: #007bff;
   }
 
-#sobre {
+.sobre {
+  display: block;
+  text-align: center;
     padding: 40px 20px;
     margin-top: 40px;
 }
 
-#sobre h2 {
+.sobre h2 {
+  justify-content: center;
     font-size: 2em;
     margin-bottom: 20px;
 }
 
-#sobre p {
-    font-size: 1.2em;
-    line-height: 1.6;
+.sobre p {
+  justify-content: center;
+    text-align: left;
+    font-size: 1.3em;
+    line-height: 1.4;
 }
 .footer {
     padding-top: 50px;
