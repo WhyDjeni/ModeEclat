@@ -1,6 +1,6 @@
 
 .body-index {
-    margin: 10 0 10 0;
+    margin: 10px 0 10px 0;
     font-family: Arial, sans-serif;
     background-color: #dbdbdbc7;
     color: #030303;
@@ -166,9 +166,11 @@
     text-align: center;
     display: block;
     position: relative;
+    transition: all 0.3s ease;
   }
   .product-card:hover{
     background-color: #888686;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
   }
   .product-image-wrapper {
     width: 100%;
