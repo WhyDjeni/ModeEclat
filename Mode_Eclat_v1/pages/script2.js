@@ -13,5 +13,19 @@ document.addEventListener('DOMContentLoaded', function() {
         window.location.href = "./roupas_mulher/blusa4.html"; 
       });
      
+      document.getElementById("camisa1").addEventListener("click", function() {
+        window.location.href = "./roupas_homem/camisa1.html"; 
+      })
+      document.getElementById("camisa2").addEventListener("click", function() {
+        window.location.href = "./roupas_homem/camisa2.html"; 
+      });
+    
+      document.getElementById("camisa3").addEventListener("click", function() {
+        window.location.href = "./roupas_homem/camisa3.html"; 
+      });
+      document.getElementById("camisa4").addEventListener("click", function() {
+        window.location.href = "./roupas_homem/camisa4.html"; 
+      });
+    
    
 });
