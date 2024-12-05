@@ -9,6 +9,14 @@ document.addEventListener('DOMContentLoaded', function() {
   addRedirectListener("blusa2", "./roupas_mulher/blusa2.html");
   addRedirectListener("blusa3", "./roupas_mulher/blusa3.html");
   addRedirectListener("blusa4", "./roupas_mulher/blusa4.html");
+  addRedirectListener("blusa5", "./roupas_mulher/blusa5.html");
+  addRedirectListener("blusa6", "./roupas_mulher/blusa6.html");
+  addRedirectListener("blusa7", "./roupas_mulher/blusa7.html");
+  addRedirectListener("blusa8", "./roupas_mulher/blusa8.html");
+  addRedirectListener("calca5", "./roupas_mulher/calca5.html");
+  addRedirectListener("calca6", "./roupas_mulher/calca6.html");
+  addRedirectListener("calca7", "./roupas_mulher/calca7.html");
+  addRedirectListener("calca8", "./roupas_mulher/calca8.html");
 
 });
 document.addEventListener('DOMContentLoaded', function() {
